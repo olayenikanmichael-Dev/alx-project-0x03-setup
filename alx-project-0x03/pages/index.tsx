@@ -1,5 +1,9 @@
 import Button from "@/components/common/Button";
 import { useRouter } from "next/router";
+import React from 'react';
+import { HomePageProps } from '../interface';
+import Layout from '../components/layouts/Layout';
+
 
 interface PageRouteProps {
   pageRoute: string
